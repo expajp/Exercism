@@ -1,18 +1,16 @@
-# Hello World
+# Two Fer
 
-The classical introductory exercise. Just say "Hello, World!".
+`Two-fer` or `2-fer` is short for two for one. One for you and one for me.
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
-the traditional first program for beginning programming in a new language
-or environment.
+```text
+"One for X, one for me."
+```
 
-The objectives are simple:
+When X is a name or "you".
 
-- Write a function that returns the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
+If the given name is "Alice", the result should be "One for Alice, one for me."
+If no name is given, the result should be "One for you, one for me."
 
-If everything goes well, you will be ready to fetch your first real exercise.
 
 * * * *
 
@@ -30,16 +28,16 @@ the test file.
 
 Run the tests from the exercise directory using the following command:
 
-    ruby hello_world_test.rb
+    ruby two_fer_test.rb
 
 To include color from the command line:
 
-    ruby -r minitest/pride hello_world_test.rb
+    ruby -r minitest/pride two_fer_test.rb
 
 
 ## Source
 
-This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+[https://en.wikipedia.org/wiki/Two-fer](https://en.wikipedia.org/wiki/Two-fer)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
