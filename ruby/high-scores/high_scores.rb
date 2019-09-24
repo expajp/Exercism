@@ -10,15 +10,20 @@ class HighScores
   end
 
   def personal_best
-    @scores.max
+    descending_scores.first
   end
 
   def personal_top_three
-    sorted = @scores.sort.reverse
-    sorted[0..2] || sorted[0..1] || [sorted[0]]
+    descending_scores.take(3)
   end
   
   def latest_is_personal_best?
     latest == personal_best
+  end
+
+  private
+
+  def descending_scores
+    @scores.sort { |a, b| b <=> a }
   end
 end
